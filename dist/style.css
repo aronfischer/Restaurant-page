@@ -97,6 +97,7 @@ h3 {
       rgba(255, 255, 255, 0.7)
     ),
     url("https://cdn.pixabay.com/photo/2017/01/23/15/36/eat-2002918_1280.jpg");
+  background-size: cover;
 }
 
 .grid-container-locations {
@@ -127,6 +128,7 @@ h3 {
       rgba(255, 255, 255, 0.7)
     ),
     url("https://cdn.pixabay.com/photo/2014/07/08/17/14/steak-387728_1280.jpg");
+  background-size: cover;
 }
 
 .about-us-sec div {
@@ -158,6 +160,7 @@ h3 {
       rgba(255, 255, 255, 0.7)
     ),
     url("https://cdn.pixabay.com/photo/2017/03/23/19/57/asparagus-2169305_1280.jpg");
+  background-size: cover;
 }
 
 .grid-container-testimonials {
