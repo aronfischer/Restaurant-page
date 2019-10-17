@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Restaurant Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset-styles.css" />
+    <script
+      src="https://kit.fontawesome.com/82fbf1f44c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="content"></div>
+    <!-- <div id="map" class="hidden"></div> -->
+    <script src="main.js"></script>
+    <script>
+      function initMap() {
+        let location = new google.maps.LatLng(48.135124, 11.581981);
+        let map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: location
+        });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map,
+          title: "Hello World!"
+        });
+      }
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZeN0yZ2P2l8JBAlzQDyXqIKZHdGAScjE&callback=initMap"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>
+
+<!--Important Links:
+Bakcground picture main: https://vuenj.com/wp-content/uploads/2019/02/Prime-Angus-strip-steak-with-peach-and-greens-1140x760.jpg
+Menu vorlage:
+1.          https://images.besttemplates.com/1407/Elegant-Mock-up.jpg
+2.          https://cdn.dribbble.com/users/1193563/screenshots/6088652/menu_design_template.jpg
+-->
